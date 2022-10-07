@@ -1,0 +1,26 @@
+VERSION 1.0 CLASS
+BEGIN
+  MultiUse = -1  'True
+  Persistable = 0  'NotPersistable
+  DataBindingBehavior = 0  'vbNone
+  DataSourceBehavior  = 0  'vbNone
+  MTSTransactionMode  = 0  'NotAnMTSObject
+END
+Attribute VB_Name = "ActionOfString"
+Attribute VB_GlobalNameSpace = False
+Attribute VB_Creatable = True
+Attribute VB_PredeclaredId = False
+Attribute VB_Exposed = False
+Option Explicit
+'class Action<of T>
+'does something if it will be called
+Private m_Obj As Object
+Private m_ActionName As String
+
+Friend Sub New_(aObj As Object, aActionName As String)
+    Set m_Obj = aObj: m_ActionName = aActionName
+End Sub
+
+Public Sub Invoke(ByVal s As String)
+    CallByName m_Obj, m_ActionName, VbCallType.VbMethod, s
+End Sub
