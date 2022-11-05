@@ -10,5 +10,12 @@ Project started around Okt.2022.
 This is the vbc-version of a code by Nick Chapsas. I like the tutorial-videos by Nick very much.  
 
 [Video by Nick Chapsas: Why I don't use the "else" keyword in my code anymore](https://www.youtube.com/watch?v=_ougvb8mT7k)
- 
+
+for the code to compile you also need the following files in other repositories, have alook at the vbp-file:
+* Module= MPtr;            ..\Ptr_Pointers   \ Modules \ MPtr.bas
+* Class = Action;          ..\Sys_FuncAction \ Classes \ Action.cls
+* Class = ActionOfString;  ..\Sys_FuncAction \ Classes \ ActionOfString.cls
+* Class = FuncOfString;    ..\Sys_FuncAction \ Classes \ FuncOfString.cls
+* Class = Console;         ..\Sys_Console    \ Classes \ Console.cls
+
 ![BartenderAvoidElse Image](Resources/BartenderAvoidElse.png "BartenderAvoidElse Image")

@@ -12,7 +12,7 @@ Attribute VB_Creatable = True
 Attribute VB_PredeclaredId = False
 Attribute VB_Exposed = False
 Option Explicit
-Private m_inputProvider As FuncOfString
+Private m_inputProvider  As FuncOfString
 Private m_outputProvider As ActionOfString
 
 Friend Sub New_(aInputProvider As FuncOfString, aOutputProvider As ActionOfString)

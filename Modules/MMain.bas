@@ -28,14 +28,14 @@ Public Console As New Console
 
 Sub Main()
     Console.IsInIDE = False 'for testing purposes
-#If AvoidElse Then 'argument for conditionyl compilation
+#If AvoidElse Then 'argument for conditional compilation
     Console.WriteLine "Hi this is your BartenderX, we try to avoid else, welcome!"
     Dim mBarTender As BartenderX: Set mBarTender = MNew.BartenderX(MNew.FuncOfString(Console, "ReadLine"), MNew.ActionOfString(Console, "WriteLine"))
 #Else
     Console.WriteLine "Hi this is your Bartender, we are used to use else, welcome!"
     Dim mBarTender As Bartender:  Set mBarTender = MNew.Bartender(MNew.FuncOfString(Console, "ReadLine"), MNew.ActionOfString(Console, "WriteLine"))
 #End If
-
+    
     While mBarTender.AskForDrink
         'DoEvents
     Wend
