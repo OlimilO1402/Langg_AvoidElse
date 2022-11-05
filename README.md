@@ -12,7 +12,7 @@ This is the vbc-version of a code by Nick Chapsas. I like the tutorial-videos by
 [Video by Nick Chapsas: Why I don't use the "else" keyword in my code anymore](https://www.youtube.com/watch?v=_ougvb8mT7k)
 
 For the code to compile you also need the following files from other repositories, just have alook at the vbp-file.
-You dont need to collect the files, just fork the 3 repos along-side :
+You dont need to collect the files, just fork the 3 repos alongside :
 
 Repo Ptr_Pointers:
 * Module= MPtr;            ..\Ptr_Pointers\Modules\MPtr.bas
