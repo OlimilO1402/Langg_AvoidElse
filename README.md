@@ -11,18 +11,18 @@ This is the vbc-version of a code by Nick Chapsas. I like the tutorial-videos by
 
 [Video by Nick Chapsas: Why I don't use the "else" keyword in my code anymore](https://www.youtube.com/watch?v=_ougvb8mT7k)
 
-for the code to compile you also need the following files from other repositories, 
-just have alook at the vbp-file:  
+For the code to compile you also need the following files from other repositories, just have alook at the vbp-file.
+You dont need to collect the files, just fork the 3 repos along-side :
 
-From the repo Ptr_Pointers:
+Repo Ptr_Pointers:
 * Module= MPtr;            ..\Ptr_Pointers\Modules\MPtr.bas
 
-From the repo Sys_FuncAction:
+Repo Sys_FuncAction:
 * Class = Action;          ..\Sys_FuncAction\Classes\Action.cls
 * Class = ActionOfString;  ..\Sys_FuncAction\Classes\ActionOfString.cls
 * Class = FuncOfString;    ..\Sys_FuncAction\Classes\FuncOfString.cls
 
-From the repo Sys_Console:
+Repo Sys_Console:
 * Class = Console;         ..\Sys_Console\Classes\Console.cls
 
 ![BartenderAvoidElse Image](Resources/BartenderAvoidElse.png "BartenderAvoidElse Image")
