@@ -9,6 +9,6 @@
 Project started around Okt.2022.  
 This is the vbc-version of a code by Nick Chapsas. I like the tutorial-videos by Nick very much.  
 
-[Link text Here](https://link-url-here.org)  
-
-![<AppName> Image](Resources/BartenderAvoidElse.png "BartenderAvoidElse Image")
+[Video by Nick Chapsas: Why I don't use the "else" keyword in my code anymore](https://www.youtube.com/watch?v=_ougvb8mT7k)
+ 
+![BartenderAvoidElse Image](Resources/BartenderAvoidElse.png "BartenderAvoidElse Image")
